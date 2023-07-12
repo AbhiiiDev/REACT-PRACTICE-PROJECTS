@@ -3,8 +3,9 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto',sans-serif;
+
 }
-a {
+a , h2{
   text-decoration: none;
   color: white;
 }
@@ -37,6 +38,8 @@ $bg: rgb(16, 16, 16);
     color: white;
     font-size: 2rem;
     cursor: pointer;
-
+&:hover{
+  color: rgb(205, 200, 200);
+}
   }
 }
