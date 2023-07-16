@@ -9,7 +9,9 @@ function Header() {
   return (
     <>
   <nav className="header">
+   
     <img src={Logo} alt="logo"/>
+   
     <div>
 
     <Link to='/tvshows'> Tv Shows </Link>
